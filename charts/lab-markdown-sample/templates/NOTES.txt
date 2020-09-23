@@ -1,0 +1,7 @@
+You have installed the lab-markdown-sample workshop.
+
+To determine the URL for accessing the workshop, run:
+
+```
+kubectl get training-portal/lab-markdown-sample
+```

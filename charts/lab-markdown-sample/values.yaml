@@ -1,0 +1,4 @@
+portal:
+  capacity: 1
+  registration:
+    type: anonymous

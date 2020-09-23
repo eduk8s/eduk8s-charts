@@ -1,0 +1,7 @@
+apiVersion: v2
+name: lab-markdown-sample
+description: A sample edukates workshop using Markdown.
+type: application
+version: 0.1.0
+kubeVersion: '>=1.16.0-0'
+icon: https://raw.githubusercontent.com/eduk8s/eduk8s-charts/master/logo.png
