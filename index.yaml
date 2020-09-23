@@ -24,4 +24,16 @@ entries:
     urls:
     - https://github.com/eduk8s/eduk8s-charts/releases/download/eduk8s-operator-0.1.1/eduk8s-operator-0.1.1.tgz
     version: 0.1.1
+  lab-markdown-sample:
+  - apiVersion: v2
+    created: "2020-09-23T06:07:08.410495109Z"
+    description: A sample edukates workshop using Markdown.
+    digest: 9a2e648c57bbfde42cdd06c8c4d99fd5470b6c987edbe39509a9046bd9484963
+    icon: https://raw.githubusercontent.com/eduk8s/eduk8s-charts/master/logo.png
+    kubeVersion: '>=1.16.0-0'
+    name: lab-markdown-sample
+    type: application
+    urls:
+    - https://github.com/eduk8s/eduk8s-charts/releases/download/lab-markdown-sample-0.1.0/lab-markdown-sample-0.1.0.tgz
+    version: 0.1.0
 generated: "2020-09-23T05:38:16.472390549Z"
