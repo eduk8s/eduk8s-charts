@@ -1,7 +1,7 @@
 apiVersion: v2
 name: eduk8s-operator
-description: Interactive learning platform
+description: Interactive learning platform.
 type: application
-version: 0.1.0
+version: 0.1.1
 appVersion: 200921.055522.7cb980e
 kubeVersion: '>=1.16.0-0'
