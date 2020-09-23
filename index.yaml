@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  eduk8s-operator:
+  - apiVersion: v2
+    appVersion: 200921.055522.7cb980e
+    created: "2020-09-23T05:38:16.584420858Z"
+    description: Interactive learning platform.
+    digest: 280542eba2a5caee5b08eff4c03c06d62d4583dc9a7cf0ae59ef3ead447ece7c
+    kubeVersion: '>=1.16.0-0'
+    name: eduk8s-operator
+    type: application
+    urls:
+    - https://github.com/eduk8s/eduk8s-charts/releases/download/eduk8s-operator-0.1.1/eduk8s-operator-0.1.1.tgz
+    version: 0.1.1
+generated: "2020-09-23T05:38:16.472390549Z"
