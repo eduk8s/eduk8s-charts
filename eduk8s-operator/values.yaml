@@ -1,0 +1,14 @@
+operator:
+  image: quay.io/eduk8s/eduk8s-operator:200921.055522.7cb980e
+  imagePullPolicy: IfNotPresent
+
+profiles:
+  default:
+    portal:
+      image: quay.io/eduk8s/eduk8s-portal:200919.023217.9eae94e
+    workshop:
+      images:
+        base-environment:*: quay.io/eduk8s/base-environment:200921.043323.ed97b3a
+        conda-environment:*: quay.io/eduk8s/conda-environment:200921.045213.1b31733
+        jdk8-environment:*: quay.io/eduk8s/jdk8-environment:200921.045242.d6cc2da
+        jdk11-environment:*: quay.io/eduk8s/jdk11-environment:200921.045301.aed6669

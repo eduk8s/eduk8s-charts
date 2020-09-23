@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eduk8s-operator
+  namespace: {{ .Release.Namespace }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      deployment: eduk8s-operator
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        deployment: eduk8s-operator
+    spec:
+      serviceAccountName: eduk8s
+      containers:
+      - name: eduk8s
+        image: {{ .Values.operator.image | default "quay.io/eduk8s/eduk8s-operator:develop" | quote }}
+        imagePullPolicy: {{ .Values.operator.imagePullPolicy | default "Always" }}

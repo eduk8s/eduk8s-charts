@@ -1,0 +1,3 @@
+Thank you for installing edukates!
+
+Your release is named {{ .Release.Name }} and installed into the namespace {{ .Release.Namespace }}.
